@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cocotte</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" type="image/png" href="img/logo/favicon.png">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="./main.js" defer></script>
+
+  
+
+</head>
+<body>
+
+  <nav id="menu" class="menu-hidden">
+    <div class="menu-hidden-entete">
+      <span class="material-symbols-outlined">shopping_cart</span>
+      <span class="material-symbols-outlined" id="fermer-menu">close</span>
+    </div>
+    <ul>
+      <li>Accueil</li>
+      <li>Sacs à bandoulière</li>
+      <li>Sacs à dos</li>
+      <li>Sacs utilitaire</li>
+      <li>Ressources</li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1 class="titre">Cocotte</h1>
+    <span class="material-icons" id="menu-icon">menu</span>
+    <nav>
+      <ul>
+        <li>Accueil</li>
+        <li>Sacs à bandoulière</li>
+        <li>Sacs à dos</li>
+        <li>Sacs utilitaire</li>
+        <li>Ressources</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="conteneurGroupe">
+      <div class="conteneurImg1 conteneurImg">
+        <img id="sourceImage" src="img/navy/fred_navy_face.png" alt="" data-js-img1>
+      </div>
+      <div class="conteneurImg2 conteneurImg">
+        <img src="img/navy/fred_navy_dos.png" alt="" data-js-img2>
+      </div>
+
+      <!-- Images Grand Écran -->
+      <div class="conteneurImg3 conteneurImg ajoutPaddingPhoto">
+        <img src="img/navy/fred_navy_cote.png" alt="" data-js-img3>
+      </div>
+      <div class="conteneurImg4 conteneurImg ajoutPaddingPhoto">
+        <img src="img/navy/fred_navy_interieur.png" alt="" data-js-img4>
+      </div>
+      <div class="conteneurImg5 conteneurImg ajoutPaddingPhoto">
+        <img src="img/navy/fred_navy_1.png" alt="" data-js-img5>
+      </div>
+      <div class="conteneurImg6 conteneurImg ajoutPaddingPhoto">
+        <img src="img/navy/fred_navy_2.png" alt="" data-js-img6>
+      </div>
+
+      <div class="nom-sac">
+        <h2>Sac Cocotte FRED</h2>
+        <h2 class="prix">156,00$</h2>
+      </div>
+
+      <!-- Couleur -->
+      <div class="couleur">
+        <h2 class="texte-couleur">Couleur</h2>
+        <div class="btn-cercle" data-js-couleur>
+          <div class="navy" id="navy" data-js-action="navy/fred_navy_face.png" data-js-action2="navy/fred_navy_dos.png" data-js-action3="navy/fred_navy_1.png" data-js-action4="navy/fred_navy_2.png" data-js-action5="navy/fred_navy_cote.png" data-js-action6="navy/fred_navy_interieur.png"></div>
+          <div class="noir" id="noir" data-js-action="noire/fred_noire_face.png" data-js-action2="noire/fred_noire_dos.png" data-js-action3="noire/fred_noire_1.png" data-js-action4="noire/fred_noire_2.png" data-js-action5="noire/fred_noire_cote.png" data-js-action6="noire/fred_noire_interieur.png"></div>
+          <div class="vert" id="vert" data-js-action="vert/fred_vert_face.png" data-js-action2="vert/fred_vert_dos.png" data-js-action3="vert/fred_vert_1.png" data-js-action4="vert/fred_vert_2.png" data-js-action5="vert/fred_vert_cote.png" data-js-action6="vert/fred_vert_interieur.png"></div>
+          <div class="rouge" id="rouge" data-js-action="rouge/fred_rouge_face.png" data-js-action2="rouge/fred_rouge_dos.png" data-js-action3="rouge/fred_rouge_1.png" data-js-action4="rouge/fred_rouge_2.png" data-js-action5="rouge/fred_rouge_cote.png" data-js-action6="rouge/fred_rouge_interieur.png"></div>
+          
+          <div class="ellipse-navy" ></div>
+          <div class="ellipse-noir" ></div>
+          <div class="ellipse-vert"></div>
+          <div class="ellipse-rouge"></div>
+        </div>
+        
+      </div>
+      <div class="ajout-panier">
+        <h2>Ajouter au panier</h2>
+        <span class="material-icons">add</span>
+      </div>
+      
+      <div class="description-normale" data-js-infoSup>
+        <h2>Description</h2>
+        <span class="material-icons">arrow_drop_down</span>
+      </div>
+
+      <div class="description-ouverte" data-js-descpritionOuverte>
+        <p>Résistant, léger et imperméable, Fred s’adapte à toutes les situations, il se démarque par sa surprenante polyvalence.</p>
+        <p>Équipé d’une pochette extérieure à fermeture éclair doublée imperméable ainsi qu’une nouvelle bandoulière plus solide et confortable. </p>
+      </div>
+
+      <div class="tailles-normale" data-js-infoSup>
+        <h2>Tailles</h2>
+        <span class="material-icons">arrow_drop_down</span>
+      </div>
+
+      <div class="tailles-ouverte" data-js-tailleOuverte>
+        <p>Dimensions :<br/>34 x 26 x 15 cm<br/>Parfait pour un ordinateur de 14”</p>
+        <p>Volume :<br/>14 litres</p>
+        <p>Poids :<br/>856 grammes</p>
+      </div>
+
+      <div class="defilement-images">
+        <img src="img/navy/fred_navy_cote.png" alt="">
+        <span class="material-symbols-outlined fleche-gauche">arrow_back_ios</span>
+        <span class="material-symbols-outlined fleche-droite">arrow_forward_ios</span>
+
+        <div class="cerlce-deffilement">
+            <div class="cercle1">
+            </div>
+            <div class="cercle3">
+            </div>
+            <div class="cercle3">
+            </div>
+            <div class="cercle4">
+            </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="rectangle-comparer">
+      <h2>Comparer avec d'autres</h2>
+    </div>
+
+    <div class="article">
+
+      <div class="caracteristique-comparer">
+       
+        <h2>Produit</h2>
+        <h2>Prix</h2>
+        <h2>Volume</h2>
+        <h2>Étanchéité</h2>
+        <h2 class="grandeurText">Compatibilité d'ordinateur</h2>
+      </div>
+      <div class="fred-comparer">
+        <img class="padding-photo" src="img/navy/fred_navy_face.png" alt="">
+        <h2>FRED</h2>
+        <h2>156,00$</h2>
+        <h2>14 litres</h2>
+        <h2>Oui</h2>
+        <h2 class="ajoutPadding">14", 15"</h2>
+      </div>
+
+      <div class="alfredo-comparer">
+        <img class="padding-photo" src="img/Aldredo_gris.png" alt="">
+        <h2>ALFREDO</h2>
+        <h2>194,00$</h2>
+        <h2>32 litres</h2>
+        <h2>Oui</h2>
+        <h2 class="ajoutPadding">18"</h2>
+      </div>
+
+      <div class="frida-comparer">
+        <img class="padding-photo" src="img/frida_vert.png" alt="">
+        <h2>FRIDA</h2>
+        <h2>109,00$</h2>
+        <h2>6 litres</h2>
+        <h2>Oui</h2>
+        <h2 class="ajoutPadding">non</h2>
+      </div>
+
+    </div>
+  <!-- Position initiale du bloc infolettre -->
+   <div class="retour-infolettre">
+<div class="infolettre">
+  <div class="rectangle-evaluation">
+    <span class="material-symbols-outlined crayon">edit</span>
+    <div class="etoiles">
+      <i class="fas fa-star" style="color: gold;"></i>
+      <i class="fas fa-star" style="color: gold;"></i>
+      <i class="fas fa-star" style="color: gold;"></i>
+      <i class="fas fa-star" style="color: gold;"></i>
+      <i class="far fa-star" style="color: gold;"></i>
+    </div>
+    <div class="bouton">
+      <h2>Évaluez ce produit</h2>
+    </div>
+  </div>
+  <div class="nouveauté">
+    <h2 class="grand-size">Recevez les nouveautés !</h2>
+    <h2 class="bordure">Entrez votre courriel pour ne rien manquer</h2>
+    <div class="encadrer-courriel">
+      <h3 class="texte-couriel">Adresse Courriel</h3>
+      <div class="rectangle-bouton">
+        <h3 class="texte-abonnement">Abonnez-vous</h3>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  </main>
+
+     <!-- ajout de panier  -->
+<div id="article-ajouter-panier">
+  <span class="material-symbols-outlined" id="fermer-ajouter-panier">close</span>
+  <h2 class="borderTexte">Article ajouté au panier</h2>
+  <img id="copieImage" src="" alt="">
+  <h3 class="prix-article-ajoute">Sac Cocotte FRED 156,00$</h3>
+  <div class="aller-panier">
+    <h2>Aller au panier</h2>
+  </div>
+
+</div>
+
+  <footer>
+    <div class="contact">
+      <h3>Contactez-nous:</h3>
+      <p>
+        <a>514 527-7582</a>
+        <a href="mailto:info@cocotte-equip.com" style="text-decoration: none; color: #000;">info@cocotte-equip.com</a>
+      </p>
+    </div>
+    <div class="reseaux" >
+      <h3>Nos réseaux:</h3>
+     
+        <div class="logos-reseaux">
+          <a href="#">
+            <img src="img/logo/insta.png" alt="https://www.instagram.com/">
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <img src="img/logo/facebook.png" alt="Facebook">
+          </a>
+          <a href="#" style="text-decoration: none;">
+            <img src="img/logo/twitter.png" alt="Twitter">
+          </a>
+        </div>
+      </div>
+    
+    
+  </footer>
+
+</body>
+</html>
